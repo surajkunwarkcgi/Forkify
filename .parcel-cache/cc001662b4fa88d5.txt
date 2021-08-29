@@ -39,7 +39,7 @@
 74C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\randombytes132739303971375736 1
 88C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\prebuild-install\asset.js121436361000000000 0
 87C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\string-hash\package.json131313264140000000 0
-70C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\controller.js132745431175115900 0
+70C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\controller.js132745917852008937 0
 89C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\is-arguments\.eslintignore121436361000000000 0
 105C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\uncss\node_modules\postcss\lib\tokenize.js121436361000000000 0
 94C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\source-map\lib\binary-search.js131369414910000000 0
@@ -65,7 +65,7 @@
 90C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\string\anchor.js121436361000000000 0
 109C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\modules\es.typed-array.uint16-array.js121436361000000000 0
 86C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\is-plain-obj\index.d.ts121436361000000000 0
-54C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist132745433871104191 1
+54C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist132745964630148554 1
 112C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\string.prototype.trimstart\test\implementation.js121436361000000000 0
 99C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\uri-js\dist\esnext\schemes\ws.js.map121436361000000000 0
 93C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\@types\node\child_process.d.ts132737958830000000 0
@@ -333,7 +333,7 @@
 98C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\stylehacks\dist\plugins\starHtml.js121436361000000000 0
 94C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\caniuse-lite\data\regions\SA.js121436361000000000 0
 93C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\svgo\plugins\collapseGroups.js121436361000000000 0
-77C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\resultsView.js132745433856386824 0
+77C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\resultsView.js132745964658208261 0
 103C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\json-schema\draft-zyp-json-schema-03.xml129519536920000000 0
 79C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\braces\README.md121436361000000000 0
 95C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\string\starts-with.js121436361000000000 0
@@ -2497,7 +2497,7 @@
 107C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\static-extend\node_modules\kind-of\README.md131523517230000000 0
 118C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\postcss-modules-values\node_modules\color-name\index.js131446304070000000 0
 105C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\caniuse-lite\data\features\css-counters.js121436361000000000 0
-72C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.436439df.js132745433869894881 0
+72C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.436439df.js132745964629948634 0
 104C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\stylehacks\dist\dictionary\identifiers.js121436361000000000 0
 70C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\timsort132739304012306283 1
 123C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gdbusnamewatching.h132612604640000000 0
@@ -9466,7 +9466,7 @@
 82C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\msgpackr\index.d.ts121436361000000000 0
 92C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lmdb-store\benchmark\index.js121436361000000000 0
 80C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\msgpackr\index.js121436361000000000 0
-76C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.436439df.js.map132745433870634449 0
+76C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.436439df.js.map132745964630118575 0
 116C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\jsdom\lib\jsdom\living\traversal\NodeIterator-impl.js121436361000000000 0
 96C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\features\reflect\index.js121436361000000000 0
 84C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\msgpackr\iterators.js121436361000000000 0
