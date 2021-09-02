@@ -476,6 +476,8 @@ const controlRecipes = async function() {
         const id = window.location.hash.slice(1);
         if (!id) return;
         _recipeViewJsDefault.default.renderSpinner();
+        // 0) Update results view to mark selected search result
+        _resultsViewJsDefault.default.update(_modelJs.getSearchResultsPage());
         // 1) Loading recipe
         await _modelJs.loadRecipe(id);
         // 2) Rendering the recipe
@@ -505,8 +507,16 @@ const controlPagination = function(goToPage) {
     // 2) Render New Pagination
     _paginationViewJsDefault.default.render(_modelJs.state.search);
 };
+const controlServings = function(newServings) {
+    // Update the recipe servings (in state)
+    _modelJs.updateServings(newServings);
+    // Update the recipe view
+    // recipeView.render(model.state.recipe);
+    _recipeViewJsDefault.default.update(_modelJs.state.recipe);
+};
 const init = function() {
     _recipeViewJsDefault.default.addHandlerRender(controlRecipes);
+    _recipeViewJsDefault.default.addHandlerUpdateServings(controlServings);
     _searchViewJsDefault.default.addHandlerSearch(controlSearchResults);
     _paginationViewJsDefault.default.addHandlerClick(controlPagination);
 };
@@ -522,6 +532,8 @@ parcelHelpers.export(exports, "loadRecipe", ()=>loadRecipe
 parcelHelpers.export(exports, "loadSearchResults", ()=>loadSearchResults
 );
 parcelHelpers.export(exports, "getSearchResultsPage", ()=>getSearchResultsPage
+);
+parcelHelpers.export(exports, "updateServings", ()=>updateServings
 );
 var _regeneratorRuntime = require("regenerator-runtime");
 var _configJs = require("./config.js");
@@ -576,6 +588,12 @@ const getSearchResultsPage = function(page = state.search.page) {
     const start = (page - 1) * state.search.resultsPerPage;
     const end = page * state.search.resultsPerPage;
     return state.search.results.slice(start, end);
+};
+const updateServings = function(newServings) {
+    state.recipe.ingredients.forEach((ing)=>{
+        ing.quantity = ing.quantity * newServings / state.recipe.servings;
+    });
+    state.recipe.servings = newServings;
 };
 
 },{"regenerator-runtime":"cH8Iq","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","./config.js":"beA2m","./helpers.js":"9l3Yy"}],"cH8Iq":[function(require,module,exports) {
@@ -1244,8 +1262,16 @@ class RecipeView extends _viewJsDefault.default {
     _parentElement = document.querySelector('.recipe');
     _errorMessage = 'We could not find that recipe. Please try another one!';
     _message = '';
+    addHandlerUpdateServings(handler) {
+        this._parentElement.addEventListener('click', function(e) {
+            const btn = e.target.closest('.btn--update-servings');
+            if (!btn) return;
+            const { updateTo  } = btn.dataset;
+            if (+updateTo > 0) handler(+updateTo);
+        });
+    }
     _generateMarkup() {
-        return `\n    <figure class="recipe__fig">\n          <img src="${this._data.image}" alt="${this._data.title}" class="recipe__img" />\n          <h1 class="recipe__title">\n            <span>${this._data.title}</span>\n          </h1>\n        </figure>\n\n        <div class="recipe__details">\n          <div class="recipe__info">\n            <svg class="recipe__info-icon">\n              <use href="${_iconsSvgDefault.default}#icon-clock"></use>\n            </svg>\n            <span class="recipe__info-data recipe__info-data--minutes">${this._data.cookingTime}</span>\n            <span class="recipe__info-text">minutes</span>\n          </div>\n          <div class="recipe__info">\n            <svg class="recipe__info-icon">\n              <use href="${_iconsSvgDefault.default}#icon-users"></use>\n            </svg>\n            <span class="recipe__info-data recipe__info-data--people">${this._data.servings}</span>\n            <span class="recipe__info-text">servings</span>\n\n            <div class="recipe__info-buttons">\n              <button class="btn--tiny btn--increase-servings">\n                <svg>\n                  <use href="${_iconsSvgDefault.default}#icon-minus-circle"></use>\n                </svg>\n              </button>\n              <button class="btn--tiny btn--increase-servings">\n                <svg>\n                  <use href="${_iconsSvgDefault.default}#icon-plus-circle"></use>\n                </svg>\n              </button>\n            </div>\n          </div>\n\n          <div class="recipe__user-generated">\n            \n          </div>\n          <button class="btn--round">\n            <svg class="">\n              <use href="${_iconsSvgDefault.default}#icon-bookmark-fill"></use>\n            </svg>\n          </button>\n        </div>\n\n        <div class="recipe__ingredients">\n          <h2 class="heading--2">Recipe ingredients</h2>\n          <ul class="recipe__ingredient-list">\n          ${this._data.ingredients.map(this._generateMarkupIngredient).join('')}\n          </ul>\n        </div>\n\n        <div class="recipe__directions">\n          <h2 class="heading--2">How to cook it</h2>\n          <p class="recipe__directions-text">\n            This recipe was carefully designed and tested by\n            <span class="recipe__publisher">${this._data.publisher}</span>. Please check out\n            directions at their website.\n          </p>\n          <a\n            class="btn--small recipe__btn"\n            href="${this._data.sourceUrl}"\n            target="_blank"\n          >\n            <span>Directions</span>\n            <svg class="search__icon">\n              <use href="${_iconsSvgDefault.default}#icon-arrow-right"></use>\n            </svg>\n          </a>\n        </div>`;
+        return `\n    <figure class="recipe__fig">\n          <img src="${this._data.image}" alt="${this._data.title}" class="recipe__img" />\n          <h1 class="recipe__title">\n            <span>${this._data.title}</span>\n          </h1>\n        </figure>\n\n        <div class="recipe__details">\n          <div class="recipe__info">\n            <svg class="recipe__info-icon">\n              <use href="${_iconsSvgDefault.default}#icon-clock"></use>\n            </svg>\n            <span class="recipe__info-data recipe__info-data--minutes">${this._data.cookingTime}</span>\n            <span class="recipe__info-text">minutes</span>\n          </div>\n          <div class="recipe__info">\n            <svg class="recipe__info-icon">\n              <use href="${_iconsSvgDefault.default}#icon-users"></use>\n            </svg>\n            <span class="recipe__info-data recipe__info-data--people">${this._data.servings}</span>\n            <span class="recipe__info-text">servings</span>\n\n            <div class="recipe__info-buttons">\n              <button class="btn--tiny btn--update-servings" data-update-to="${this._data.servings - 1}">\n                <svg>\n                  <use href="${_iconsSvgDefault.default}#icon-minus-circle"></use>\n                </svg>\n              </button>\n              <button class="btn--tiny btn--update-servings" data-update-to="${this._data.servings + 1}">\n                <svg>\n                  <use href="${_iconsSvgDefault.default}#icon-plus-circle"></use>\n                </svg>\n              </button>\n            </div>\n          </div>\n\n          <div class="recipe__user-generated">\n            \n          </div>\n          <button class="btn--round">\n            <svg class="">\n              <use href="${_iconsSvgDefault.default}#icon-bookmark-fill"></use>\n            </svg>\n          </button>\n        </div>\n\n        <div class="recipe__ingredients">\n          <h2 class="heading--2">Recipe ingredients</h2>\n          <ul class="recipe__ingredient-list">\n          ${this._data.ingredients.map(this._generateMarkupIngredient).join('')}\n          </ul>\n        </div>\n\n        <div class="recipe__directions">\n          <h2 class="heading--2">How to cook it</h2>\n          <p class="recipe__directions-text">\n            This recipe was carefully designed and tested by\n            <span class="recipe__publisher">${this._data.publisher}</span>. Please check out\n            directions at their website.\n          </p>\n          <a\n            class="btn--small recipe__btn"\n            href="${this._data.sourceUrl}"\n            target="_blank"\n          >\n            <span>Directions</span>\n            <svg class="search__icon">\n              <use href="${_iconsSvgDefault.default}#icon-arrow-right"></use>\n            </svg>\n          </a>\n        </div>`;
     }
     addHandlerRender(handler) {
         [
@@ -1565,6 +1591,23 @@ class View {
         this._clear();
         //recipeContainer.innerHTML = '';
         this._parentElement.insertAdjacentHTML('afterbegin', markup);
+    }
+    update(data) {
+        if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
+        this._data = data;
+        const newMarkup = this._generateMarkup();
+        const newDom = document.createRange().createContextualFragment(newMarkup);
+        const newElements = Array.from(newDom.querySelectorAll('*'));
+        const curElements = Array.from(this._parentElement.querySelectorAll('*'));
+        newElements.forEach((newEl, i)=>{
+            const curEl = curElements[i];
+            //updates changed text
+            if (!newEl.isEqualNode(curEl) && newEl.firstChild?.nodeValue.trim() !== '') curEl.textContent = newEl.textContent;
+            //updates changed attributes
+            if (!newEl.isEqualNode(curEl)) Array.from(newEl.attributes).forEach((attr)=>{
+                curEl.setAttribute(attr.name, attr.value);
+            });
+        });
     }
     _clear() {
         this._parentElement.innerHTML = '';
@@ -13302,7 +13345,8 @@ class ResultsView extends _viewJsDefault.default {
         return this._data.map(this._generateMarkupPreview).join('');
     }
     _generateMarkupPreview(result) {
-        return `\n      <li class="preview">\n            <a class="preview__link" href="#${result.id}">\n              <figure class="preview__fig">\n                <img src="${result.image}" alt="${result.title}" />\n              </figure>\n              <div class="preview__data">\n                <h4 class="preview__title">${result.title}</h4>\n                <p class="preview__publisher">${result.publisher}</p>\n                // <div class="preview__user-generated">\n                //   <svg>\n                //     <use href="${_iconsSvgDefault.default}#icon-user"></use>\n                //   </svg>\n                // </div>\n              </div>\n            </a>\n          </li>`;
+        const id = window.location.hash.slice(1);
+        return `\n      <li class="preview">\n            <a class="preview__link ${result.id === id ? 'preview__link--active' : ''}" href="#${result.id}">\n              <figure class="preview__fig">\n                <img src="${result.image}" alt="${result.title}" />\n              </figure>\n              <div class="preview__data">\n                <h4 class="preview__title">${result.title}</h4>\n                <p class="preview__publisher">${result.publisher}</p>\n                // <div class="preview__user-generated">\n                //   <svg>\n                //     <use href="${_iconsSvgDefault.default}#icon-user"></use>\n                //   </svg>\n                // </div>\n              </div>\n            </a>\n          </li>`;
     }
 }
 exports.default = new ResultsView();
