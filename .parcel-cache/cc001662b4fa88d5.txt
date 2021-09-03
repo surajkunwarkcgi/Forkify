@@ -39,7 +39,7 @@
 74C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\randombytes132739303971375736 1
 88C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\prebuild-install\asset.js121436361000000000 0
 87C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\string-hash\package.json131313264140000000 0
-70C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\controller.js132748580157351145 0
+70C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\controller.js132750662984037025 0
 89C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\is-arguments\.eslintignore121436361000000000 0
 105C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\uncss\node_modules\postcss\lib\tokenize.js121436361000000000 0
 94C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\source-map\lib\binary-search.js131369414910000000 0
@@ -65,7 +65,7 @@
 90C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\string\anchor.js121436361000000000 0
 109C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\modules\es.typed-array.uint16-array.js121436361000000000 0
 86C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\is-plain-obj\index.d.ts121436361000000000 0
-54C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist132748529398433189 1
+54C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist132750666825292271 1
 112C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\string.prototype.trimstart\test\implementation.js121436361000000000 0
 99C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\uri-js\dist\esnext\schemes\ws.js.map121436361000000000 0
 93C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\@types\node\child_process.d.ts132737958830000000 0
@@ -179,7 +179,7 @@
 101C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\@nodelib\fs.walk\out\providers\sync.js121436361000000000 0
 90C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\astring\dist\astring.js.map121436361000000000 0
 71C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\@nodelib132739303425002440 1
-65C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\model.js132746849024968050 0
+65C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\model.js132750659426195613 0
 118C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\jsdom\lib\jsdom\living\generated\WindowEventHandlers.js121436361000000000 0
 82C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lodash\fp\repeat.js121436361000000000 0
 89C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\uri-js\dist\es5\uri.all.js121436361000000000 0
@@ -212,10 +212,10 @@
 100C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\uncss\node_modules\chalk\node_modules132739303465910556 1
 77C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\assign-symbols132739303780284549 1
 69C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\parcel132739304099376617 1
-70C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\View.js132746750279654531 0
+70C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\View.js132750665071604844 0
 140C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\sharp\vendor\8.10.6\include\gdk-pixbuf-2.0\gdk-pixbuf\gdk-pixbuf-enum-types.h132612604640000000 0
 82C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\htmlparser2\LICENSE121436361000000000 0
-80C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\paginationView.js132748518748522781 0
+80C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\paginationView.js132750371131557574 0
 88C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\is-iterable.js121436361000000000 0
 71C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\nice-try132739303809590330 1
 101C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\modules\es.reflect.own-keys.js121436361000000000 0
@@ -302,7 +302,7 @@
 62C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views132747594194098616 1
 82C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lodash\_stackGet.js121436361000000000 0
 114C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\@parcel\core\test\fixtures\custom-format-infer-type132739304536181662 1
-76C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\recipeView.js132746738143755372 0
+76C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\recipeView.js132750666814579647 0
 79C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lodash\result.js121436361000000000 0
 97C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\string.prototype.trimend\README.md121436361000000000 0
 96C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\jsdom\lib\jsdom\living\attributes132739304408590486 1
@@ -329,7 +329,7 @@
 98C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\stylehacks\dist\plugins\starHtml.js121436361000000000 0
 94C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\caniuse-lite\data\regions\SA.js121436361000000000 0
 93C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\svgo\plugins\collapseGroups.js121436361000000000 0
-77C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\resultsView.js132746750360972844 0
+77C:\Users\User\Desktop\JavaScript_Projects\Forkify\src\js\views\resultsView.js132750371304230766 0
 103C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\json-schema\draft-zyp-json-schema-03.xml129519536920000000 0
 79C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\braces\README.md121436361000000000 0
 95C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\string\starts-with.js121436361000000000 0
@@ -2499,7 +2499,7 @@
 107C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\static-extend\node_modules\kind-of\README.md131523517230000000 0
 118C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\postcss-modules-values\node_modules\color-name\index.js131446304070000000 0
 105C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\caniuse-lite\data\features\css-counters.js121436361000000000 0
-72C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.436439df.js132748529397204802 0
+72C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.436439df.js132750666825012423 0
 104C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\stylehacks\dist\dictionary\identifiers.js121436361000000000 0
 70C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\timsort132739304012306283 1
 123C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gdbusnamewatching.h132612604640000000 0
@@ -6216,7 +6216,7 @@
 113C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gemblem.h132612604640000000 0
 84C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lodash\_baseRandom.js121436361000000000 0
 120C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\sharp\vendor\8.10.6\include\libgsf-1\gsf\gsf-impl-utils.h132612604640000000 0
-65C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.html132745433869894881 0
+65C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.html132750371752975050 0
 94C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\@parcel\utils\lib\objectHash.js121436361000000000 0
 78C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\ignore\index.js121436361000000000 0
 122C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\sharp\vendor\8.10.6\include\libgsf-1\gsf\gsf-infile-msole.h132612604640000000 0
@@ -7290,7 +7290,7 @@
 90C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\regenerator-runtime\path.js121436361000000000 0
 93C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\regenerator-runtime\runtime.js121436361000000000 0
 82C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\readdirp\index.d.ts121436361000000000 0
-73C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.fa02a0b5.css132745433869894881 0
+73C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.fa02a0b5.css132750371752975050 0
 84C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lodash\_createBind.js121436361000000000 0
 81C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\punycode\README.md130692890970000000 0
 82C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\stable\date132739304736936452 1
@@ -9466,7 +9466,7 @@
 82C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\msgpackr\index.d.ts121436361000000000 0
 92C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lmdb-store\benchmark\index.js121436361000000000 0
 80C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\msgpackr\index.js121436361000000000 0
-76C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.436439df.js.map132748529398050607 0
+76C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.436439df.js.map132750666825252311 0
 116C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\jsdom\lib\jsdom\living\traversal\NodeIterator-impl.js121436361000000000 0
 96C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\features\reflect\index.js121436361000000000 0
 84C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\msgpackr\iterators.js121436361000000000 0
@@ -10405,7 +10405,7 @@
 109C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lmdb-store\prebuilds\linux-x64\node.abi83.node121436361000000000 0
 127C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\@parcel\node-libs-browser\node_modules\readable-stream\README.md121436361000000000 0
 83C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lodash\fp\isEmpty.js121436361000000000 0
-77C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.fa02a0b5.css.map132745433870634449 0
+77C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.fa02a0b5.css.map132750371753186479 0
 99C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\features\typed-array\fill.js121436361000000000 0
 101C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\@swc\helpers\src\_wrap_native_super.js132732112500000000 0
 87C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\lodash\fp\isEqualWith.js121436361000000000 0
@@ -15178,7 +15178,7 @@
 93C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\typed-array\some.js121436361000000000 0
 93C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\typed-array\sort.js121436361000000000 0
 105C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\typed-array\to-locale-string.js121436361000000000 0
-72C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\logo.739a33b1.png132745433869655001 0
+72C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\logo.739a33b1.png132750371750994350 0
 101C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\typed-array\uint32-array.js121436361000000000 0
 100C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\typed-array\uint8-array.js121436361000000000 0
 108C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\core-js\es\typed-array\uint8-clamped-array.js121436361000000000 0
@@ -17374,7 +17374,7 @@
 73C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\.bin\which132739304840270964 0
 77C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\.bin\which.cmd132739304840270964 0
 77C:\Users\User\Desktop\JavaScript_Projects\Forkify\node_modules\.bin\which.ps1132739304840270964 0
-75C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\favicon.62381efe.png132745433869645008 0
-73C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\icons.1ea35d5c.svg132745433869655001 0
-73C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\icons.c097e590.svg132745433869655001 0
+75C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\favicon.62381efe.png132750371750954366 0
+73C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\icons.1ea35d5c.svg132750371751034321 0
+73C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\icons.c097e590.svg132750371751024328 0
 76C:\Users\User\Desktop\JavaScript_Projects\Forkify\dist\index.0e47d5c3.js.map132739352931081370 0
